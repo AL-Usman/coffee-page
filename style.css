@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#section1{
+    background-color: black;
+    background: linear-gradient(  rgb(139, 135, 135),rgb(211, 19, 19));
+    color: white;
+    padding-left: 100px;
+}
+#section2{
+    color: aliceblue;
+    border-color: white;
+    padding: 100px;
+    background: url(./hero-bcg.jpg);
+    background-size: cover;
+    width: 100vw;
+    height:calc(100vh - 37px);    
+}
+input{
+    background-color: transparent;
+    padding: 10px 25px;
+    color: aliceblue;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+}
